@@ -1,0 +1,7 @@
+cevent.custom_form:
+  path: '/eventform'
+  defaults:
+    _form: 'Drupal\firstevent\Form\CustomForm'
+    _title: 'Event in Form'
+  requirements:
+    _permission: 'access content'

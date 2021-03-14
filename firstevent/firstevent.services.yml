@@ -1,0 +1,5 @@
+services:
+  custom_event_form:
+    class: '\Drupal\firstevent\CustomSubscriber\CustomEventSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
